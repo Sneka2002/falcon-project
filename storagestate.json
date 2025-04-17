@@ -1,0 +1,26 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://expo-air-dev-falcon.chq.ei:8443",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnczEtZmFsY29uIiwiZXhwIjoxNzQyOTYxMjM5LCJpYXQiOjE3NDI3OTkyMzl9.Cv9gnsbHLfhAxrmOmVFEHL9rhnYpdGtikX6-LoF533BJG9vVhDHT-HPnoH2GECfyQVmBMIoQQ9vNFkTdmicR8w"
+        },
+        {
+          "name": "userid",
+          "value": "gs1-falcon"
+        },
+        {
+          "name": "role",
+          "value": "Administer exp.o Air,Manage Air Customer Service Request"
+        },
+        {
+          "name": "username",
+          "value": "falco n"
+        }
+      ]
+    }
+  ]
+}

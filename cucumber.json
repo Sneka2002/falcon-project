@@ -1,0 +1,11 @@
+{
+  "default":{
+    "formatOptions":{
+      "snippetInterface":"async-await"
+    },
+    "paths":["End2EndTesting/Feature/"],
+    "dryRun":false,
+    "require":["End2EndTesting/StepDefs/", "storagestate.json"],
+    "requireModule":["ts-node/register"]
+  }
+}

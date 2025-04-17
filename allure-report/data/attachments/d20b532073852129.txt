@@ -1,0 +1,476 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: Draft records under my bookings
+- Location: C:\Users\gs1-snekac\Desktop\EXPOAIR\End2EndTesting\tests\drafttest.spec.ts:21:5
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "by gs1-falcon"
+Received: "by gs1-humairai"
+    at checkstatus.verifyDraftmybookingsRecords (C:\Users\gs1-snekac\Desktop\EXPOAIR\End2EndTesting\Pages\checkstatus.ts:88:42)
+    at C:\Users\gs1-snekac\Desktop\EXPOAIR\End2EndTesting\tests\drafttest.spec.ts:31:5
+```
+
+# Page snapshot
+
+```yaml
+- banner:
+  - link "expo-Air":
+    - img "expo-Air"
+  - text: Admin Mode
+  - switch
+  - text: Dark Theme
+  - switch
+  - button ""
+  - button " falco n"
+- main:
+  - text: All Records 
+  - textbox "Search": Draft
+  - text: 
+  - combobox "Filter by date range"
+  - text: 󰊄
+  - combobox "My Bookings"
+  - button "dropdown trigger": 
+  - button " Create New Record"
+  - table:
+    - rowgroup:
+      - row "Record Customer Program Origin Branch Destination Branch Status Created Last Modified More":
+        - cell "Record"
+        - cell "Customer Program"
+        - cell "Origin Branch"
+        - cell "Destination Branch"
+        - cell "Status"
+        - cell "Created"
+        - cell "Last Modified"
+        - cell "More"
+    - rowgroup:
+      - row "CS501135 EDI Profile 043692 G7226451 AMS Amsterdam  Draft Mar 07, 2025 by gs1-falcon Mar 07, 2025 by gs1-falcon":
+        - cell "CS501135":
+          - button "CS501135"
+        - cell "EDI Profile 043692 G7226451"
+        - cell "AMS Amsterdam"
+        - cell
+        - cell " Draft"
+        - cell "Mar 07, 2025 by gs1-falcon"
+        - cell "Mar 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS501130 EDI Profile 043692 G7226451 AMS Amsterdam  Draft Mar 07, 2025 by gs1-falcon Mar 07, 2025 by gs1-falcon":
+        - cell "CS501130":
+          - button "CS501130"
+        - cell "EDI Profile 043692 G7226451"
+        - cell "AMS Amsterdam"
+        - cell
+        - cell " Draft"
+        - cell "Mar 07, 2025 by gs1-falcon"
+        - cell "Mar 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500895 company m program 2 G7208581 ORD Chicago MAA Chennai  Draft Jan 20, 2025 by gs1-falcon Jan 20, 2025 by gs1-falcon":
+        - cell "CS500895":
+          - button "CS500895"
+        - cell "company m program 2 G7208581"
+        - cell "ORD Chicago"
+        - cell "MAA Chennai"
+        - cell " Draft"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500893 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 20, 2025 by gs1-falcon Jan 20, 2025 by gs1-falcon":
+        - cell "CS500893":
+          - button "CS500893"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500890 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 20, 2025 by gs1-falcon Jan 20, 2025 by gs1-falcon":
+        - cell "CS500890":
+          - button "CS500890"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500887 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 20, 2025 by gs1-falcon Jan 20, 2025 by gs1-falcon":
+        - cell "CS500887":
+          - button "CS500887"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500886 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 20, 2025 by gs1-falcon Jan 20, 2025 by gs1-falcon":
+        - cell "CS500886":
+          - button "CS500886"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500884 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 20, 2025 by gs1-falcon Jan 20, 2025 by gs1-falcon":
+        - cell "CS500884":
+          - button "CS500884"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell "Jan 20, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500776 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 08, 2025 by gs1-falcon Jan 08, 2025 by gs1-falcon":
+        - cell "CS500776":
+          - button "CS500776"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 08, 2025 by gs1-falcon"
+        - cell "Jan 08, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500730 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500730":
+          - button "CS500730"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500729 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500729":
+          - button "CS500729"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500722 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500722":
+          - button "CS500722"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500721 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500721":
+          - button "CS500721"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500719 company m program 2 G7208581 JFK New York SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500719":
+          - button "CS500719"
+        - cell "company m program 2 G7208581"
+        - cell "JFK New York"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500709 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-humairai":
+        - cell "CS500709":
+          - button "CS500709"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-humairai"
+        - cell:
+          - button
+      - row "CS500714 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500714":
+          - button "CS500714"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500713 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500713":
+          - button "CS500713"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500710 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500710":
+          - button "CS500710"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500683 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500683":
+          - button "CS500683"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+      - row "CS500682 company m program 2 G7208581 AMS Amsterdam SEA Seattle  Draft Jan 07, 2025 by gs1-falcon Jan 07, 2025 by gs1-falcon":
+        - cell "CS500682":
+          - button "CS500682"
+        - cell "company m program 2 G7208581"
+        - cell "AMS Amsterdam"
+        - cell "SEA Seattle"
+        - cell " Draft"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell "Jan 07, 2025 by gs1-falcon"
+        - cell:
+          - button
+  - text: Showing 1 to 20 of 20 results
+  - button "Previous Page" [disabled]
+  - button "1"
+  - button "Next Page" [disabled]
+  - combobox "Rows per page": "20"
+  - button "dropdown trigger"
+```
+
+# Test source
+
+```ts
+   1 | import{expect, Locator, Page} from '@playwright/test';
+   2 | import ENV from '../EnvTest/env';
+   3 |
+   4 | export class checkstatus{
+   5 |     readonly page:Page;
+   6 |     readonly Usernametextbox:Locator;
+   7 |     readonly Passwordtextbox:Locator;
+   8 |     readonly Loginbutton:Locator;
+   9 |     readonly search:Locator;
+   10 |     readonly status1:Locator;
+   11 |     readonly dropdown1:Locator;
+   12 |     readonly mybookings:Locator;
+   13 |     readonly status2:Locator;
+   14 |     readonly dropdown2:Locator;
+   15 |     readonly select:Locator;
+   16 |     readonly textvalue:Locator;
+   17 |     readonly select30:Locator;
+   18 |
+   19 |     constructor(page:Page){
+   20 |         this.page=page;
+   21 |         this.Usernametextbox=page.locator("id=username");
+   22 |         this.Passwordtextbox=page.locator("id=password");
+   23 |         this.Loginbutton=page.locator("data-testid=login-button");
+   24 |         this.dropdown1=page.locator('//p-dropdown[@styleclass="body-1-regular"]/div[1]/span');
+   25 |         //this.mybookings=page.locator('//div[@class="p-dropdown-items-wrapper ng-tns-c109-2"]/ul/p-dropdownitem[2]/li/span');
+   26 |         this.mybookings=page.locator('//div[@class="p-dropdown-items-wrapper"]/ul/p-dropdownitem[2][@class="p-element ng-star-inserted"]//span[@class="ng-star-inserted"]');
+   27 |         this.search=page.locator('//header[@class="f-table-head-section"]/div[2]/span/input');
+   28 |         this.dropdown2=page.locator('//p-dropdown[@styleclass="p-paginator-rpp-options"]/div');
+   29 |         //this.select=page.locator('//div[@class="ng-trigger ng-trigger-overlayAnimation ng-tns-c109-7 p-dropdown-panel p-component ng-star-inserted"]/div/ul/p-dropdownitem[1]/li/span');
+   30 |         this.select=page.locator('//div[@class="p-dropdown-items-wrapper"]/ul/p-dropdownitem[1][@class="p-element ng-star-inserted"]/li/span[@class="ng-star-inserted"]');
+   31 |         this.select30=page.locator('//div[@class="p-dropdown-items-wrapper"]/ul/p-dropdownitem[3][@class="p-element ng-star-inserted"]/li/span[@class="ng-star-inserted"]');
+   32 |         //this.textvalue=page.locator('//p-dropdown/div/span[@id="pr_id_5_label"]');
+   33 |         this.textvalue=page.locator('//div[@class="p-paginator-rpp-options p-dropdown p-component p-inputwrapper p-inputwrapper-filled"]/span[@class="p-element p-dropdown-label p-inputtext ng-star-inserted"]');
+   34 |         this.status1 = page.locator('[data-testid="td-status"]>div>i~span');
+   35 |         this.status2=page.locator('[data-testid="td-last-modified"]>div>span:nth-of-type(2)');
+   36 |     }
+   37 |     async openapplication()
+   38 |     {
+   39 |         await this.page.goto(ENV.URL);
+   40 |     }
+   41 |
+   42 |     async login()
+   43 |     {
+   44 |         await this.Usernametextbox.fill(ENV.USER_NAME);
+   45 |         await this.Passwordtextbox.fill(ENV.PASSWORD);
+   46 |         await this.Loginbutton.click();
+   47 |     }
+   48 |     async draftall()
+   49 |     {
+   50 |         await this.search.pressSequentially("Draft",{delay:1000});
+   51 |     }
+   52 |     async verifyDraftallRecords() 
+   53 |     {
+   54 |         await this.page.waitForSelector('[data-testid="td-status"]>div>i~span', { state: 'attached', timeout: 10000 }).catch(() => console.log("Last modified elements not found"));
+   55 |         const resultCount = await this.page.locator('[data-testid="td-status"]>div>i~span').all();
+   56 |         console.log(resultCount.length);
+   57 |         for (let i = 0; i < resultCount.length; i++) {
+   58 |             const resultText = await resultCount[i].textContent();
+   59 |             //console.log(resultText);
+   60 |             expect(resultText?.trim()).toBe(ENV.STATUS1);
+   61 |         }
+   62 |     }
+   63 |     async draftmybookingsrec()
+   64 |     {
+   65 |         await this.dropdown1.click();
+   66 |         await this.mybookings.click();
+   67 |         await this.search.pressSequentially("Draft",{delay:1000});
+   68 |     }
+   69 |     async verifyDraftmybookingsRecords() {
+   70 |
+   71 |         await this.page.waitForSelector('[data-testid="td-status"]>div>i~span', { state: 'attached', timeout: 10000 }).catch(() => console.log("Status elements not found"));
+   72 |         await this.page.waitForSelector('[data-testid="td-last-modified"]>div>span:nth-of-type(2)', { state: 'attached', timeout: 10000 }).catch(() => console.log("Last modified elements not found"));
+   73 |         const resultCount = await this.page.locator('[data-testid="td-status"]>div>i~span').all();
+   74 |         const bookingsCount = await this.page.locator('[data-testid="td-last-modified"]>div>span:nth-of-type(2)').all();
+   75 |
+   76 |
+   77 |         console.log("Result Count Length:", resultCount.length);
+   78 |         console.log("Bookings Count Length:", bookingsCount.length);
+   79 |
+   80 |         if (resultCount === bookingsCount) {
+   81 |             console.log("All are equal");
+   82 |         }
+   83 |         for (let i = 0; i < resultCount.length; i++) {
+   84 |             const resultText = await resultCount[i].textContent();
+   85 |             const bookingsText = await bookingsCount[i].textContent();
+   86 |             console.log(bookingsText);
+   87 |             expect(resultText?.trim()).toBe(ENV.STATUS1);
+>  88 |             expect(bookingsText?.trim()).toBe(ENV.STATUS3);
+      |                                          ^ Error: expect(received).toBe(expected) // Object.is equality
+   89 |             
+   90 |         }
+   91 |     }
+   92 |     async confirmedall()
+   93 |     {
+   94 |         await this.search.pressSequentially("Confirmed",{delay:1000});
+   95 |     }
+   96 |     async verifyconfirmedRecords() {
+   97 |         await this.page.waitForSelector('[data-testid="td-status"]>div>i~span', { state: 'attached', timeout: 10000 }).catch(() => console.log("Last modified elements not found"));
+   98 |         const resultCount = await this.page.locator('[data-testid="td-status"]>div>i~span').all();
+   99 |         console.log(resultCount.length);
+  100 |         for (let i = 0; i < resultCount.length; i++) {
+  101 |             const resultText = await resultCount[i].textContent();
+  102 |             expect(resultText?.trim()).toBe(ENV.STATUS2);
+  103 |         }
+  104 |     }
+  105 |
+  106 |     async confirmedmybookingsrec()
+  107 |     {
+  108 |         await this.dropdown1.click();
+  109 |         await this.mybookings.click();
+  110 |         await this.search.pressSequentially("Confirmed",{delay:1000});
+  111 |     }
+  112 |     async verifyConfirmedmybookingsRecords() {
+  113 |         await this.page.waitForSelector('[data-testid="td-status"]>div>i~span', { state: 'attached', timeout: 10000 }).catch(() => console.log("Status elements not found"));
+  114 |         await this.page.waitForSelector('[data-testid="td-last-modified"]>div>span:nth-of-type(2)', { state: 'attached', timeout: 10000 }).catch(() => console.log("Last modified elements not found"));
+  115 |         const resultCount = await this.page.locator('[data-testid="td-status"]>div>i~span').all();
+  116 |         const bookingsCount = await this.page.locator('[data-testid="td-last-modified"]>div>span:nth-of-type(2)').all();
+  117 |         console.log(resultCount.length);
+  118 |         console.log(resultCount.length);
+  119 |         if (resultCount.length === bookingsCount.length) {
+  120 |             console.log("All are equal");
+  121 |         }
+  122 |         for (let i = 0; i < resultCount.length; i++) {
+  123 |             for(let j=0;j<bookingsCount.length;j++){
+  124 |             const resultText = await resultCount[i].textContent();
+  125 |             const bookingsText = await bookingsCount[i].textContent();
+  126 |             expect(resultText?.trim()).toContain(ENV.STATUS2);
+  127 |             expect(bookingsText?.trim()).toContain(ENV.STATUS3);
+  128 |         }
+  129 |     }
+  130 |     }
+  131 |     async afterReload() {
+  132 |         const searchValue = await this.search.inputValue();
+  133 |        
+  134 |         console.log(`Search input value: "${searchValue}"`);
+  135 |        
+  136 |         expect(searchValue).toBe("");
+  137 |         console.log('Search input is empty as expected');
+  138 |        
+  139 |         const dropdownText = await this.dropdown1.textContent();
+  140 |        
+  141 |         console.log(`Dropdown text: "${dropdownText?.trim()}"`);
+  142 |        
+  143 |         expect(dropdownText?.trim()).toBe("All Bookings");
+  144 |         console.log('Dropdown is set to "All Bookings" as expected');
+  145 |     }
+  146 |     async allbookingsrec10() {
+  147 |         console.log("before click");
+  148 |         await this.dropdown2.click();
+  149 |         console.log("after click");
+  150 |         console.log("before click");
+  151 |         await this.select.click();
+  152 |         console.log("after click"); 
+  153 |     
+  154 |     }
+  155 |     async drop() {
+  156 |         const num=await this.textvalue.textContent();
+  157 |         //const num = await this.page.locator('//div[@class="p-paginator-rpp-options p-dropdown p-component p-inputwrapper p-inputwrapper-filled"]/span[@class="p-element p-dropdown-label p-inputtext ng-star-inserted"]').textContent();
+  158 |         console.log(num);
+  159 |     }
+  160 |     async allRecords10() {
+  161 |         await this.page.waitForLoadState('networkidle');
+  162 |
+  163 |     // Wait for the dropdown to be visible before proceeding
+  164 |     await this.textvalue.waitFor({ state: 'visible', timeout: 5000 });
+  165 |
+  166 |     await this.page.waitForSelector('//p-dropdown[@styleclass="p-paginator-rpp-options"]/div', { timeout: 10000 });
+  167 |
+  168 |     // Capture and parse the records per page
+  169 |     const recordsPerPageText = await this.textvalue.textContent();
+  170 |     const recordsPerPage = parseInt(recordsPerPageText?.trim() || "0", 10);
+  171 |
+  172 |     const resultCount = await this.page.locator('[data-testid="td-status"]>div>i~span').all();
+  173 |
+  174 |     const pageResultCount = resultCount.slice(0, recordsPerPage);
+  175 |
+  176 |     expect(pageResultCount.length).toBe(recordsPerPage);
+  177 |
+  178 |     for (let i = 0; i < recordsPerPage; i++) {
+  179 |         const result = await this.page.locator('[data-testid="td-status"]>div>i~span').nth(i).textContent();
+  180 |         console.log(result);
+  181 |     }
+  182 | }
+  183 | async confirmedmybookingsrec10() {
+  184 |     await this.dropdown1.click();
+  185 |     await this.mybookings.click();
+  186 |     await this.search.pressSequentially("Confirmed", { delay: 1000 });
+  187 |     console.log("before click");
+  188 |     await this.dropdown2.click();
+```

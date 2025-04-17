@@ -1,0 +1,3 @@
+20
+20
+All status rows verified to be draft records

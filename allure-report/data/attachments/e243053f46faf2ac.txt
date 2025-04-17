@@ -1,0 +1,16 @@
+before click
+after click
+before click
+after click
+10
+e.tms Failed
+e.tms Confirmed
+e.tms Confirmed
+e.tms Confirmed
+e.tms Failed
+e.tms Failed
+e.tms Failed
+Draft
+e.tms Failed
+e.tms Confirmed
+There are 10 records in a page

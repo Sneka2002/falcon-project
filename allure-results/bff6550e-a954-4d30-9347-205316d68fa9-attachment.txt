@@ -1,0 +1,8 @@
+20
+20
+All are equal
+All status rows verified to be Confirmed under my bookings
+Search input value: ""
+Search input is empty as expected
+Dropdown text: "All Bookings"
+Dropdown is set to "All Bookings" as expected

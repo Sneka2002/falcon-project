@@ -1,0 +1,6 @@
+before click
+after click
+before click
+after click
+10
+All status rows verified to be Confirmed under my bookings

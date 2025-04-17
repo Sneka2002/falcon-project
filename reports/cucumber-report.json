@@ -1,0 +1,290 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;verify-confirmed-records",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify Confirmed Records",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to expo-air website",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7990588400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I filter the confirmed records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9239803099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "verify the confirmed records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 481060999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;verify-confirmed-records-under-my-bookings",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify Confirmed Records Under My Bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I navigate to the landing page",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\confirmedmybookings.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258828000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I filter the confirmed records under my bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\confirmedmybookings.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9468920399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "verify confirmed records under my bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\confirmedmybookings.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3329074899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;verify-draft-records",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify Draft Records",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "navigate to expo-air website",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\drafttest.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1152164300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I filter the draft records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\drafttest.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5124861700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify draft records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\drafttest.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422857599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;verify-draft-records-under-my-bookings",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Verify Draft Records Under My Bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "navigate to the landing page",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\draftmybookings.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1196096099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "filter the draft records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\draftmybookings.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5475645800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "verify draft records under my bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\draftmybookings.ts:22"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 493024699,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"by gs1-\u001b[7mfalcon\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"by gs1-\u001b[7mhumairai\u001b[27m\"\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\gs1-snekac\\Desktop\\EXPOAIR\\node_modules\\playwright\\lib\\matchers\\expect.js:254:37)\n    at checkstatus.verifyDraftmybookingsRecords (C:\\Users\\gs1-snekac\\Desktop\\EXPOAIR\\End2EndTesting\\Pages\\checkstatus.ts:93:42)\n    at async World.<anonymous> (C:\\Users\\gs1-snekac\\Desktop\\EXPOAIR\\End2EndTesting\\StepDefs\\draftmybookings.ts:24:5)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;reload-the-page",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "reload the page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "navigate to expo-air landing page",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\reload.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1170410499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "want to filter confirmed my bookings records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\reload.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9494151700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "verify the confirmed my booking records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\reload.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3653438000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "reload the page",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\reload.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 939986800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "after reload",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\reload.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21544800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "End2EndTesting\\Feature\\example.feature"
+  }
+]

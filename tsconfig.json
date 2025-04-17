@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",                // Use ESNext for the latest module support
+      "target": "ESNext",                // Use ESNext to support modern JavaScript features
+      "moduleResolution": "node",        // Use Node.js module resolution
+      "esModuleInterop": true,           // Enable interop for ES module imports
+      "strict": true,                    // Enable strict type checking
+      "skipLibCheck": true,              // Skip checking of declaration files (faster builds)
+      "forceConsistentCasingInFileNames": true, // Ensure consistent casing of file names
+      "outDir": "./dist",                // Output directory for compiled files
+      "allowJs": true,                   // Allow JavaScript files to be included
+      "resolveJsonModule": true,         // Allow importing JSON files
+      "experimentalDecorators": true,    // Enable experimental decorators (if used)
+    },
+    "include": [
+      "End2EndTesting/StepDefs/**/*.ts" ,            // Include your TypeScript step definitions
+      "End2EndTesting/Feature/**/*.feature"         // Include your feature files (Cucumber)
+, "End2EndTesting/StepDefs/drafttest.ts", "End2EndTesting/StepDefs/draftmybookings.ts", "End2EndTesting/StepDefs/confirmedmybookings.ts", "End2EndTesting/StepDefs/confirmedtest.ts", "End2EndTesting/StepDefs/reload.ts", "End2EndTesting/StepDefs/hooks.ts",        ]
+}
