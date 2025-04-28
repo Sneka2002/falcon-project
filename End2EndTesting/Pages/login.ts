@@ -20,7 +20,7 @@ export async function login() {
        //await page.context().storageState({path: './storagestate.json'});
    
        //await page.waitForTimeout(5000);
-   }
+}
 
 
 

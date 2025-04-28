@@ -11,6 +11,7 @@ let confirmedallobj:checkstatus;
 Given("I navigate to expo-air website", async()=>{
     await page.goto(ENV.URL_1,{ waitUntil: 'networkidle' });
     await page.waitForLoadState('load');
+    //await confirmedallobj.waitForTableToBeReady();
     confirmedallobj = new checkstatus(page);
     //await page.waitForNavigation({ waitUntil: 'networkidle' });
 });

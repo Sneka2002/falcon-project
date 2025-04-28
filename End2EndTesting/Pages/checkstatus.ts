@@ -90,8 +90,7 @@ export class checkstatus{
             const bookingsText = await bookingsCount[i].textContent();
             console.log(bookingsText);
             expect(resultText?.trim()).toBe(ENV.STATUS1);
-            expect(bookingsText?.trim()).toBe(ENV.STATUS3);
-            
+            expect(bookingsText?.trim()).toBe(ENV.STATUS3);    
         }
     }
     async confirmedall()
@@ -152,14 +151,18 @@ export class checkstatus{
         expect(dropdownText?.trim()).toBe("All Bookings");
         console.log('Dropdown is set to "All Bookings" as expected');
     }
+    // async waitForTableToBeReady() {
+    //     await this.page.waitForSelector('.p-datatable-loading-overlay', { state: 'detached' });
+    // }
     async allbookingsrec10() {
         console.log("before click");
+        // await this.waitForTableToBeReady();
         await this.dropdown2.click();
         console.log("after click");
         console.log("before click");
+        // await this.waitForTableToBeReady();
         await this.select.click();
         console.log("after click"); 
-    
     }
     async drop() {
         const num=await this.textvalue.textContent();

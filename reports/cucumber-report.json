@@ -4,48 +4,48 @@
     "elements": [
       {
         "description": "",
-        "id": "login-functionality;verify-confirmed-records",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-confirmed-records",
         "keyword": "Scenario",
-        "line": 8,
+        "line": 3,
         "name": "Verify Confirmed Records",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 9,
+            "line": 4,
             "name": "I navigate to expo-air website",
             "match": {
               "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 7990588400
+              "duration": 8716845999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 10,
+            "line": 5,
             "name": "I filter the confirmed records",
             "match": {
-              "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:18"
+              "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 9239803099
+              "duration": 9254456700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
+            "line": 6,
             "name": "verify the confirmed records",
             "match": {
-              "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:24"
+              "location": "End2EndTesting\\StepDefs\\confirmedtest.ts:25"
             },
             "result": {
               "status": "passed",
-              "duration": 481060999
+              "duration": 486370899
             }
           }
         ],
@@ -54,48 +54,48 @@
       },
       {
         "description": "",
-        "id": "login-functionality;verify-confirmed-records-under-my-bookings",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-confirmed-records-under-my-bookings",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 8,
         "name": "Verify Confirmed Records Under My Bookings",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 14,
+            "line": 9,
             "name": "I navigate to the landing page",
             "match": {
               "location": "End2EndTesting\\StepDefs\\confirmedmybookings.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1258828000
+              "duration": 1217972100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 10,
             "name": "I filter the confirmed records under my bookings",
             "match": {
               "location": "End2EndTesting\\StepDefs\\confirmedmybookings.ts:19"
             },
             "result": {
               "status": "passed",
-              "duration": 9468920399
+              "duration": 9514796199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 16,
+            "line": 11,
             "name": "verify confirmed records under my bookings",
             "match": {
               "location": "End2EndTesting\\StepDefs\\confirmedmybookings.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 3329074899
+              "duration": 3168614300
             }
           }
         ],
@@ -104,48 +104,48 @@
       },
       {
         "description": "",
-        "id": "login-functionality;verify-draft-records",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-draft-records",
         "keyword": "Scenario",
-        "line": 18,
+        "line": 13,
         "name": "Verify Draft Records",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 19,
+            "line": 14,
             "name": "navigate to expo-air website",
             "match": {
               "location": "End2EndTesting\\StepDefs\\drafttest.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1152164300
+              "duration": 1219654300
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 20,
+            "line": 15,
             "name": "I filter the draft records",
             "match": {
               "location": "End2EndTesting\\StepDefs\\drafttest.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 5124861700
+              "duration": 5128896699
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 21,
+            "line": 16,
             "name": "verify draft records",
             "match": {
               "location": "End2EndTesting\\StepDefs\\drafttest.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 422857599
+              "duration": 421999900
             }
           }
         ],
@@ -154,48 +154,48 @@
       },
       {
         "description": "",
-        "id": "login-functionality;verify-draft-records-under-my-bookings",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-draft-records-under-my-bookings",
         "keyword": "Scenario",
-        "line": 23,
+        "line": 18,
         "name": "Verify Draft Records Under My Bookings",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 24,
+            "line": 19,
             "name": "navigate to the landing page",
             "match": {
               "location": "End2EndTesting\\StepDefs\\draftmybookings.ts:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1196096099
+              "duration": 1178119400
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 25,
+            "line": 20,
             "name": "filter the draft records",
             "match": {
               "location": "End2EndTesting\\StepDefs\\draftmybookings.ts:17"
             },
             "result": {
               "status": "passed",
-              "duration": 5475645800
+              "duration": 5465048800
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 26,
+            "line": 21,
             "name": "verify draft records under my bookings",
             "match": {
               "location": "End2EndTesting\\StepDefs\\draftmybookings.ts:22"
             },
             "result": {
               "status": "failed",
-              "duration": 493024699,
+              "duration": 484993100,
               "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"by gs1-\u001b[7mfalcon\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"by gs1-\u001b[7mhumairai\u001b[27m\"\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\gs1-snekac\\Desktop\\EXPOAIR\\node_modules\\playwright\\lib\\matchers\\expect.js:254:37)\n    at checkstatus.verifyDraftmybookingsRecords (C:\\Users\\gs1-snekac\\Desktop\\EXPOAIR\\End2EndTesting\\Pages\\checkstatus.ts:93:42)\n    at async World.<anonymous> (C:\\Users\\gs1-snekac\\Desktop\\EXPOAIR\\End2EndTesting\\StepDefs\\draftmybookings.ts:24:5)"
             }
           }
@@ -205,74 +205,446 @@
       },
       {
         "description": "",
-        "id": "login-functionality;reload-the-page",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;reload-the-page",
         "keyword": "Scenario",
-        "line": 28,
+        "line": 23,
         "name": "reload the page",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 29,
+            "line": 24,
             "name": "navigate to expo-air landing page",
             "match": {
               "location": "End2EndTesting\\StepDefs\\reload.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1170410499
+              "duration": 1182565999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 30,
+            "line": 25,
             "name": "want to filter confirmed my bookings records",
             "match": {
               "location": "End2EndTesting\\StepDefs\\reload.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 9494151700
+              "duration": 9540527700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 31,
+            "line": 26,
             "name": "verify the confirmed my booking records",
             "match": {
               "location": "End2EndTesting\\StepDefs\\reload.ts:23"
             },
             "result": {
               "status": "passed",
-              "duration": 3653438000
+              "duration": 3050147199
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 32,
+            "line": 27,
             "name": "reload the page",
             "match": {
               "location": "End2EndTesting\\StepDefs\\reload.ts:28"
             },
             "result": {
               "status": "passed",
-              "duration": 939986800
+              "duration": 926315700
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 33,
+            "line": 28,
             "name": "after reload",
             "match": {
               "location": "End2EndTesting\\StepDefs\\reload.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 21544800
+              "duration": 21240599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-10-records-under-all-bookings",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verify each page have only 10 records under all bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "select all bookings records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page10allrecords.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1296920199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Get the pagination value",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page10allrecords.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318486400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "verify the page has only 10 records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page10allrecords.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69540500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-10-confirmed-records-under-my-bookings",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Verify each page have only 10 confirmed records under my bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "filter the confirmed records under my bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page10confirmmybookings.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11338291000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "verify the page has only 10 confirmed records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page10confirmmybookings.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458120500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-10-draft-records-under-all-bookings",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "verify each page have only 10 draft records under all bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "filter 10 draft records under all bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page10draftall.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6920734500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "verify the page has only 10 draft records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page10draftall.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 409880300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-20-records-under-all-bookings",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Verify each page have only 20 records under all bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "login to expo landing page",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page20allrecords.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1181588899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "Get the pagination value as 20",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page20allrecords.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15137800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "verify the page has only 20 records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page20allrecords.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109150299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-20-confirmed-records-under-my-bookings",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Verify each page have only 20 confirmed records under my bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "filter the 20 confirmed records under my bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page20confirmmybookings.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10662114500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "verify the page has only 20 confirmed records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page20confirmmybookings.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3011554700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-20-draft-records-under-all-bookings",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "verify each page have only 20 draft records under all bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "filter 20 draft records under all bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page20draftall.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6337704099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "verify the page has only 20 draft records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page20draftall.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439025700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-30-records-under-all-bookings",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Verify each page have only 30 records under all bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "select all bookings for default 30",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page30allrecords.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1527153400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 64,
+            "name": "Get the pagination value as 30",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page30allrecords.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 835372099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "verify the page has only 30 records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page30allrecords.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161651899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-30-confirmed-records-under-my-bookings",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Verify each page have only 30 confirmed records under my bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "filter the 30 confirmed records under my bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page30confirmmybookings.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11343490399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "verify the page has only 30 confirmed records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page30confirmmybookings.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093635600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”;verify-each-page-have-only-30-draft-records-under-all-bookings",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "verify each page have only 30 draft records under all bookings",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 72,
+            "name": "filter 30 draft records under all bookings",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page30draftall.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1519960099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "verify the page has only 30 draft records",
+            "match": {
+              "location": "End2EndTesting\\StepDefs\\page30draftall.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 989441599
             }
           }
         ],
@@ -280,10 +652,10 @@
         "type": "scenario"
       }
     ],
-    "id": "login-functionality",
+    "id": "display-records-in-landing-page-on-searching-the-status---“draft”-and-“confirmed”",
     "line": 1,
     "keyword": "Feature",
-    "name": "Login Functionality",
+    "name": "Display records in landing page on searching the status - “Draft” and “Confirmed”",
     "tags": [],
     "uri": "End2EndTesting\\Feature\\example.feature"
   }
