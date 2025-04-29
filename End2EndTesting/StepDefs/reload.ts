@@ -34,4 +34,4 @@ Then("after reload",async function() {
     console.log("After reload the page");
     await reloadobj.afterReload();
     await page.waitForLoadState('load');
-})
+});
