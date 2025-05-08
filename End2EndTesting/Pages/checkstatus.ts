@@ -343,7 +343,7 @@ async verifydraftRecords20() {
 
     const recordsPerPageText = await this.textvalue.textContent();
     const recordsPerPage = parseInt(recordsPerPageText?.trim() || "0", 10);
-    
+   
     const resultCount = await this.page.locator('[data-testid="td-status"]>div>i~span').all();
 
     console.log(resultCount.length);
